@@ -6,9 +6,97 @@
 </head>
 <body>
 
-	<p>Hello there :-) This is my first commit.</p>
-	<span>Adding a change (this time to master)</span>
-	<div>ich schreib jetzt mal wieder was in den Master</div>
-	<div>Hallo, hier die Branch! Bitte nimm das mal auf in den Master :-)</div>
+	<section>
+		<article>
+			<p>1) Download the https://git-scm.com/ for Windows</p>
+			<p>2) Install it</p>
+
+			<ul>
+				<li>open the "git bash"</li>
+				<ul>
+					<li>check the version with "git --version"</li>
+				</ul>
+			</ul>
+
+			<h1>Initializing, adding, committing, and status</h1>
+			=============================================
+			<p>
+			<ul>
+				<li> "git init" initialisiert das Projekt</li>
+				<ul>
+					<li> erstellt eine .git Datei</li>
+				</ul>
+			</ul>
+
+
+			</p>
+
+			<p>
+			<ul>
+				<li> füge die Datei hinzu (erstmal nur die Staging Umgebung,
+					also ein Schritt vor der remote Repository)</li>
+				<ul>
+					<li> "git add <Filename>"  Info: "git add --all"
+						pusht alles in das Staging (neue Dateien, Löschungen, Änderungen
+						etc.) </li>
+				</ul>
+			</ul>
+			</p>
+
+
+			<p>
+			<ul>
+				<li> prüfe den Status</li>
+				<li> "git status"</li>
+				<ul>
+					<li> zeigt an welche Datei in der Stage Phase sind (also vor
+						dem commit) und welche nicht</li>
+				</ul>
+			</ul>
+			</p>
+
+			<p>
+			<ul>
+				<li> Info: Farben beim "git Status" Befehl</li>
+				<ul>
+					<li style="color: magenta">untracked files = magenta</li>
+					<li style="color: green">new files = green</li>
+					<li style="color: blue">modified files = blue</li>
+					<li style="color: red">deleted files = red</li>
+				</ul>
+			</ul>
+			</p>
+			<p>
+			<ul>
+				<li> git commit -m "revision one"</li>
+				<ul>
+					<li> Commit Änderung auf die entfernte Repository</li>
+				</ul>
+			</ul>
+
+
+			</p>
+
+			<p>
+			<ul>
+				<li> Tip: Änderung an die Email senden</li>
+				<ul>
+					<li> git config --global user.email "<email>"</li>
+					<li> git config --global user.name "<MeinName>"</li>
+				</ul>
+			</ul>
+			</p>
+
+			<p>
+			<ul>
+				<li> "git log"</li>
+				<ul>
+					<li>einsehen was alles committed wurde</li>
+				</ul>
+			</ul>
+			</p>
+		</article>
+	</section>
+
 </body>
 </html>
